@@ -1,0 +1,19 @@
+{
+    "name": "huzaifa/test-addons",
+    "description": "Test Addons For Elementor",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "autoload": {
+        "psr-4": {
+            "TestAddons\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "huzaifaalmesbah",
+            "email": "hello@huzaifa.im"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
